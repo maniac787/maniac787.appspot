@@ -1,6 +1,6 @@
 application: maniac787
 version: 1
-runtime: python
+runtime: python27
 api_version: 1
 threadsafe: yes
 
@@ -19,4 +19,4 @@ handlers:
   static_dir: templates/images
 
 - url: .*
-  script: plantilla.py
+  script: plantilla.application
