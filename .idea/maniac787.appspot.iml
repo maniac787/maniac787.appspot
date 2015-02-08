@@ -8,7 +8,7 @@
         <option name="templatesFolder" value="" />
         <option name="email" value="maniac787@gmail.com" />
         <option name="gp" value="dfdddfd2dfd8df9ddf92df9ddfcddfc7dfd2" />
-        <option name="oauth2" value="false" />
+        <option name="oauth2" value="true" />
       </configuration>
     </facet>
   </component>
