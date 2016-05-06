@@ -31,7 +31,8 @@ class MainPage(webapp.RequestHandler):
 class Guestbook(webapp.RequestHandler):
     def post(self):
 
-        self.redirect('/')
+        #self.redirect('/')
+        self.response.write('Hello world!')
 
 application = webapp.WSGIApplication(
     [('/', MainPage),

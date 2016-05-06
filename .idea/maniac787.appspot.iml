@@ -9,12 +9,14 @@
         <option name="email" value="maniac787@gmail.com" />
         <option name="gp" value="dfdddfd2dfd8df9ddf92df9ddfcddfc7dfd2" />
         <option name="oauth2" value="true" />
+        <option name="deployConfigured" value="true" />
+        <option name="saveCredentials" value="true" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 2.7.8 (/usr/bin/python2.7)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 2.7.7 (/usr/bin/python2.7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Google App Engine SDK" level="project" />
   </component>
@@ -32,4 +34,3 @@
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
   </component>
 </module>
-
