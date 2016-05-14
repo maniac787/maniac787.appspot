@@ -204,7 +204,7 @@ Description:    All the codes written with seperated directives and modules. You
         $scope.openColorChanger = function() {
             return $scope.colorContainer = !$scope.colorContainer;
         }
-        $rootScope.colors = "css/blue.css";
+        $rootScope.colors = "css/brown.css";
         $scope.changeColor = function(e) {
             $rootScope.colors = e;
         }

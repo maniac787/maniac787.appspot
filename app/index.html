@@ -23,7 +23,7 @@
     <!-- if your hosting hosted directly you can leave the base href as is if you upload with some roots then you can specify the root otherwise it will make erorrs -->
     <base href="/">
     <meta charset="UTF-8">
-    <title>Personal Vcard</title>
+    <title>Roberto Vcard</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <!-- this ng-href for color picking demo purposes only anytime you can delete and you can choose certain color -->
@@ -41,7 +41,7 @@
 
 <body data-ng-controller="personalWebsiteAppController">
     <!-- this color changer for demo purposes only you can completely get rid of it -->
-    <div class="color-changer" data-ng-class="{'color-changer-hiden':!colorContainer}">
+    <div class="color-changer" data-ng-class="{'color-changer-hiden':!colorContainer}" ng-if="false">
         <div class="color-changer-icon" data-ng-click="openColorChanger()"></div>
         <h3>Choose the color</h3>
         <div class="blue" data-ng-click="openColorChanger();changeColor('css/blue.css')"></div>
